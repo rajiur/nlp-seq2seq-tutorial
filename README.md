@@ -1,6 +1,6 @@
-Introduction
+It was a task (assignment) for Natural Language Processing Course (Spring 2020). 
 
-The aim of the work is to learn sequence to sequence (seq2seq) models. Introduced for the first time in 2014 by Google, a sequence to sequence model aims to map a fixed-length input with a fixed-length output where the length of the input and output may differ. From the high-level view, a seq2seq model has encoder, decoder and intermediate step as its main components. The class tutorial shows an excellent example of a minimalistic implementation of seq2seq model. The goal of the homework is to make this model efficient using batches and analyze the models' performance.
+The aim of the task is to learn sequence to sequence (seq2seq) models. Introduced for the first time in 2014 by Google, a sequence to sequence model aims to map a fixed-length input with a fixed-length output where the length of the input and output may differ. From the high-level view, a seq2seq model has encoder, decoder and intermediate step as its main components. The class tutorial shows an excellent example of a minimalistic implementation of seq2seq model. The goal of the homework is to make this model efficient using batches and analyze the models' performance.
 
 The overall architechture of the class tutorial was kept which is uses a single LSTM layer with one direction on both the encoder and decoder. Two models were designed. One with attention and another without attention. Both models works with batches of input. The model with attention achieved 98.80% accuracy on test test.
 
